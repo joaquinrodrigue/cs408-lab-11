@@ -1,24 +1,27 @@
-# Web Dev Starter Code
+# Lab 11 - API test
 
 ## Overview
 
-TODO: Write a project description
+This project is a test of an AWS-based API we made.
+
+## Usage
+
+Once you download this Git repository, run the following command 
+in a console/terminal:
+
+```bash
+npm install
+```
+
+There's no dependencies for Node.js here though.
+
+To run the project easily, you can use the VSCode Live Server 
+extension to run a local server for the project. In VSCode, hit
+Ctrl+Shift+P to open the command window, and use the command 
+"Live Preview: Start Server".
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+ - Template project: https://github.com/shanep/cs408-lab-11
+ - Previous labs: https://github.com/joaquinrodrigue/cs408-lab-9
+ - Because of a bug I was having that showed up in the console as an Access-Control-Allow-Origin error: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin

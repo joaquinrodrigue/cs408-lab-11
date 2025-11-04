@@ -1,4 +1,71 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* Just setting font + background */
+body {
+  font-family: 'Segoe UI';
+  background-color: #d0e0ff;
+}
+
+/* Header elements */
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  display: block;
+  background-color: white;
+  font-size: 1em;
+}
+
+button:active {
+  background-color: #c0f0ff;
+}
+
+/* The data table */
+table {
+  width: 90%;
+  max-width: 700px;
+  margin: 3em auto;
+  background-color: #607080;
+  border: 1px solid #607080;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #70b0ff;
+}
+
+td {
+  background-color: #b0e0ff;
+}
+
+tbody:nth-child(odd) td {
+  background-color: #c0f0ff;
+}
+
+@media screen and (max-width: 450px) {
+  table {
+    width: 100%;
+  }
+}
+
+/* Add item form */
+form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 700px;
+  margin: auto;
+}
+
+label, input {
+  width: 50%;
+  display: inline-block;
+}
+
+label {
+  text-align: right;
+  margin: auto;
+}
+
+#add-item {
+  margin-top: 2em;
 }
